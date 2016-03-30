@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.p1406544.ptut_android.activities.Home_page"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PTUT : Notation des TP"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <Button android:id="@+id/btcreatetp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CREER UN TP"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:onClick="gocreaTp"/>
+
+        <Button android:id="@+id/btchargetp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CHARGER UN TP"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:onClick="gochargeTp"/>
+
+        <Button android:id="@+id/btgerergroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GERER LES GROUPES"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:onClick="goManageGroup"/>
+
+        <Button android:id="@+id/btgerercomp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GERER LES COMPETENCES"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:onClick="gocreatecomp"/>
+
+        <Button android:id="@+id/btquit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="QUITTER"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:onClick="goquit"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

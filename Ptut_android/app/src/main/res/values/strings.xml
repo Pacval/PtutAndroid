@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notation TP</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_notation">Notation</string>
+    <string name="title_activity_select_groupe">Select_groupe</string>
+    <string name="title_activity_home_page">Home_page</string>
+    <string name="title_activity_ajout_competences_exo">ajout_competences_exo</string>
+    <string name="title_activity_crea_groupe">Crea_groupe</string>
+    <string name="title_activity_view_students_groupe">View_students_groupe</string>
+    <string name="title_activity_manage_comp">Manage_comp</string>
+</resources>
